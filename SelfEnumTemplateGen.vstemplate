@@ -8,6 +8,5 @@
   </TemplateData>
   <TemplateContent>
     <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.cs">Type.cs</ProjectItem>
-    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$Def.cs">Def.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

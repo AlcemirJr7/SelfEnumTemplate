@@ -24,11 +24,11 @@ Item Templete para criação da estrutura do SelfEnum
 
 <img width="947" height="653" alt="img_nome_arquivo" src="https://github.com/user-attachments/assets/1e41ce6d-ad63-4387-8085-48166f989d43" />
 
-## 🧬 O resultado é a geração dos arquivos, e o código basico do SelfEnum:
+## 🧬 O resultado é a geração do código basico do SelfEnum:
 
 <img width="1913" height="707" alt="img_template_gerado" src="https://github.com/user-attachments/assets/b5965518-16df-4128-a90a-ed1f1f3bc38b" />
 
-### O Arquivo SelfEnumConverter é genérido, colocar em um lugar adequado, uma pasta Abstractions...
+### O Arquivo SelfEnumConverter é genérido, colocar em um lugar adequado, uma pasta Abstractions, por exemplo...
 
 
 

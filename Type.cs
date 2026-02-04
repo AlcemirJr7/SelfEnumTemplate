@@ -7,10 +7,12 @@ namespace $rootnamespace$
     [JsonConverter(typeof(SelfEnumConverter<$safeitemname$>))]
     public readonly record struct $safeitemname$ : IParsable<$safeitemname$>
     {
+        // Os enums
+        public const string Exemplo = "exemplo";
+
         public static readonly FrozenSet<string> ValidTypes = new[]
         {
-            // Your Defs
-            $safeitemname$Def.Exemple
+            Exemplo
         }.ToFrozenSet();
 
         public string Value { get; } = string.Empty;
@@ -20,14 +22,11 @@ namespace $rootnamespace$
             if (!ValidTypes.Contains(value))
                 throw new ArgumentException($"your_message: [{value}]. your_message: [{Descriptions}]");
 
-            Value = value;
+            Value = value.Trim();
         }
 
         public static implicit operator string($safeitemname$ tipo) => tipo.Value;
         public static implicit operator $safeitemname$(string value) => new(value);
-
-        // Add your Defs
-        public static readonly $safeitemname$ Exemple = new($safeitemname$Def.Exemple);
 
         public static readonly string Descriptions = string.Join(", ", ValidTypes);
 
