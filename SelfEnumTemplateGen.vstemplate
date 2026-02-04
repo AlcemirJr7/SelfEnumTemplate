@@ -1,0 +1,13 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>Self Enum Pattern</Name>
+    <Description>Cria arquivos básicos para o SelfEnum</Description>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>SelfEnum</DefaultName>
+    <Icon>__TemplateIcon.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.cs">Type.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$Def.cs">Def.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
