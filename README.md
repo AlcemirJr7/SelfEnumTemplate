@@ -30,7 +30,7 @@ Item Templete para criação da estrutura do SelfEnum
 
 ### O Arquivo SelfEnumConverter é genérido, colocar em um lugar adequado, uma pasta Abstractions, por exemplo...
 
-#💡 Apoio ao Projeto
+💡# Apoio ao Projeto
 
 Este projeto é mantido de forma independente.
 Se ele gerou valor real para você ou sua equipe, considere apoiar sua evolução.
